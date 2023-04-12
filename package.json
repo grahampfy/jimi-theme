@@ -1,0 +1,21 @@
+{
+  "name": "jimi-theme",
+  "displayName": "jimi-theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "jimi-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jimi-color-theme.json"
+      }
+    ]
+  }
+}
