@@ -1,18 +1,33 @@
 {
   "name": "jimi-theme",
-  "displayName": "jimi-theme",
-  "description": "",
+  "displayName": "Jimi Theme",
+  "description": "A light color theme with a dark chrome frame.",
   "version": "0.0.1",
+  "publisher": "grahampfy",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.77.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "light",
+    "color-theme",
+    "light theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grahampfy/jimi-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/grahampfy/jimi-theme/issues"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "jimi-theme",
+        "label": "Jimi",
         "uiTheme": "vs",
         "path": "./themes/jimi-color-theme.json"
       }
