@@ -4,7 +4,10 @@ A light color theme for Visual Studio Code, with an intentional **dark chrome fr
 
 ## Install
 
-Available on [Open VSX](https://open-vsx.org/extension/grahampfy/jimi-theme).
+Available on:
+
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=grahampfy.jimi-theme)
+- [Open VSX](https://open-vsx.org/extension/grahampfy/jimi-theme)
 
 1. Open the Extensions view (`Ctrl+Shift+X`).
 2. Search for **jimi-theme**.
