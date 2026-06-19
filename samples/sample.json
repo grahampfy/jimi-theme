@@ -1,0 +1,22 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "private": true,
+  "config": {
+    "port": 3000,
+    "debug": false,
+    "maxRetries": 3,
+    "timeout": null,
+    "features": ["auth", "logging", "cache"],
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "ssl": true
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest"
+  }
+}

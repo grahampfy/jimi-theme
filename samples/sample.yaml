@@ -1,0 +1,44 @@
+# Sample YAML for theme preview
+version: "3.8"
+
+defaults: &defaults
+  retries: 3
+  timeout: 30
+  enabled: true
+
+services:
+  web:
+    <<: *defaults
+    image: nginx:1.25-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - NODE_ENV=production
+      - DEBUG=false
+    depends_on:
+      - api
+    labels:
+      app: web
+      tier: frontend
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: ["node", "server.js"]
+    healthcheck:
+      test: curl -f http://localhost:3000/health || exit 1
+      interval: 10s
+
+description: >
+  A folded multi-line string
+  that becomes a single line.
+
+notes: |
+  A literal block
+  preserving newlines.
+
+matrix:
+  numbers: [1, 2, 3]
+  flags: { a: yes, b: no, c: null }

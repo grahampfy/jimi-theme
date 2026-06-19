@@ -1,0 +1,26 @@
+{
+  "level0": {
+    "level1": {
+      "level2": {
+        "level3": {
+          "level4": {
+            "level5": {
+              "level6": {
+                "level7": {
+                  "level8": "deepest value",
+                  "number": 42,
+                  "flag": true,
+                  "nothing": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "array": [
+    { "id": 1, "name": "one" },
+    { "id": 2, "name": "two" }
+  ]
+}
