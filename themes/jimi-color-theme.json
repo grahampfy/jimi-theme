@@ -9,7 +9,7 @@
 		"errorForeground": "#d0576b",
 		"descriptionForeground": "#6a6d73",
 		"disabledForeground": "#6e7178",
-		"icon.foreground": "#383a42",
+		"icon.foreground": "#6e7f90",
 		"editorGhostText.foreground": "#8a8d92",
 		"search.resultsInfoForeground": "#6a6d73",
 		"textPreformat.foreground": "#180614",
@@ -190,6 +190,11 @@
 		"titleBar.inactiveBackground": "#0c2238",
 		"titleBar.inactiveForeground": "#a8adb5",
 		"titleBar.border": "#2a4073",
+
+		// ---- Command center (title bar widgets) ----
+		"commandCenter.foreground": "#c0c8d0",
+		"commandCenter.activeForeground": "#ffffff",
+		"commandCenter.inactiveForeground": "#8a94a0",
 
 		// ---- Status bar ----
 		"statusBar.foreground": "#ffffff",
