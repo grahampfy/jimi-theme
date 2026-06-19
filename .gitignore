@@ -1,2 +1,22 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Packaged extension
 *.vsix
+
+# Build / test output
+out/
+dist/
+.vscode-test/
+
+# Working backups
+*.backup-*.json
+*.bak
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
