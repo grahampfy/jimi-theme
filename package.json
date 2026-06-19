@@ -2,7 +2,7 @@
   "name": "jimi-theme",
   "displayName": "Jimi Theme",
   "description": "A light color theme with a dark chrome frame.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "grahampfy",
   "license": "MIT",
   "engines": {

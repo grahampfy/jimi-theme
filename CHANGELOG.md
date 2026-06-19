@@ -1,9 +1,13 @@
-# Change Log
+# Changelog
 
-All notable changes to the "jimi-theme" extension will be documented in this file.
+## 0.1.0
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Flatten UI by removing widget shadows
+- Improve icon contrast on dark title bar
+- Add command center foreground colors for title bar widgets
+- Fix theme validation warnings (word highlight transparency, deprecated keys)
+- Clean up duplicate tokenColor scopes and trailing commas
 
-## [0.0.1]
+## 0.0.1
 
 - Initial release: light theme with a dark chrome frame.
