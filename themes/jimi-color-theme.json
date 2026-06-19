@@ -4,7 +4,7 @@
 		// ---- Base ----
 		"foreground": "#383a42",
 		"focusBorder": "#474b42",
-		"widget.shadow": "#474b4294",
+		"widget.shadow": "#00000000",
 		"selection.background": "#aed4fb",
 		"errorForeground": "#d0576b",
 		"descriptionForeground": "#6a6d73",
