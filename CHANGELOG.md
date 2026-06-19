@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Automate publishing to VS Code Marketplace and Open VSX via GitHub Actions
+
 ## 0.1.0
 
 - Flatten UI by removing widget shadows
