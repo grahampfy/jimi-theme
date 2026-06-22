@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Remove italic style from comments (keep green color)
+
 ## 0.1.3
 
 - Automate publishing to VS Code Marketplace and Open VSX via GitHub Actions
